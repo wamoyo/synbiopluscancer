@@ -1848,11 +1848,11 @@
     @media screen and (max-width: 480px) {
 
       section.wrapper, article.wrapper {
-        text-align: center;
+        text-align: left;
       }
 
         section.wrapper article, article.wrapper article {
-          text-align: center;
+          text-align: left;
         }
 
     }
@@ -2626,7 +2626,7 @@
     input[type="button"].alt,
     button.alt,
     .button.alt {
-      background-color: transparent;
+      background-color: white;
       box-shadow: inset 0 0 0 2px #dbdbdb;
       color: #555 !important;
     }
@@ -2950,11 +2950,12 @@
 
     #banner h1 {
       font-size: 3.5em;
-      font-weight: 100;
+      font-weight: 400;
       color: #fff;
       line-height: 1em;
       margin: 0 0 0.5em 0;
       padding: 0 2em;
+      text-shadow: 1px 1px 2px #555
     }
 
     #banner p {
